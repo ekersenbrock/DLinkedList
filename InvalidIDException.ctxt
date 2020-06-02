@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=InvalidIDException
+comment0.text=\r\n\ Notification\ for\ input\ of\ an\ invalid\ or\ inapropriate\ lenght\r\n\r\n\ @author\ Erik\ K\r\n\ @version\ 5/30/2020\r\n
+comment1.params=key
+comment1.target=InvalidIDException(java.lang.String)
+comment1.text=\r\n\ Store\ the\ details\ in\ error.\r\n\ @param\ key\ The\ desired\ length\ for\ the\ input.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getKey()
+comment2.text=\r\n\ @return\ The\ key\ in\ error.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ @return\ A\ diagnostic\ string\ containing\ the\ key\ in\ error.\r\n
+numComments=4

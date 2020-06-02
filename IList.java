@@ -2,9 +2,9 @@
 
 public interface IList<T>
 {
-    boolean add(int index, T element);
-    boolean addFirst(T element);
-    boolean addLast(T element);
+    void add(int index, T element);
+    void addFirst(T element);
+    void addLast(T element);
     
     void delete(int index);
     void deleteFirst();
