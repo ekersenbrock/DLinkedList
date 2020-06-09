@@ -14,9 +14,9 @@ public interface IList<T>
     void clear();
     boolean contains(T object);
     
-    T get(int index);
-    T getFirst();
-    T getLast();
+    Node<T> get(int index);
+    Node<T> getFirst();
+    Node<T> getLast();
     
     void set(int index, T object);
 }
